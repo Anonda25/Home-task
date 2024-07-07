@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Merriweather", serif;
+}
+
+
+/* main section start */
+main {
+    max-width: 1420px;
+    margin: 50px 140px;
+}
+
+.New-year {
+
+
+    background-image: url("./images/Banner\ Image.png");
+    background-size: cover;
+
+    border-radius: 16px;
+}
+
+.banner-head {
+    padding: 233px 344px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    color: #fff;
+    text-align: center;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.banner-description {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* main section 1 end */
+.Off-sec-style {
+    padding: 120px 250px;
+    text-align: center;
+}
+
+.Off-section {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+}
+
+.off-description {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.off-end {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* welcome section start */
+.Welcome-title {
+    padding: 50px 100px 0px 150px;
+    border-radius: 16px;
+    /* padding: 126px 550px 290px 126px; */
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+
+.welcome-style {
+    background-image: url("./images/Vectorrr.png");
+    background-size: cover;
+}
+
+.content-welcome {
+    display: flex;
+    margin-top: 50px;
+}
+
+.welcome-head {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 44px;
+    font-weight: 900;
+
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    text-decoration: 0;
+}
+
+.img-title {
+    width: 349.16px;
+    height: 464.65px;
+    padding-top: 50px;
+}
+
+/*welcome section end  */
+
+.detelis {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-top: 120px;
+}
+
+.deteils-title {
+    text-align: center;
+    padding: 100px 380px 110px 380px;
+}
+
+.d-color-style {
+    color: rgb(255, 0, 0);
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 10px 18px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* end */
+.comming-soon {
+    display: flex;
+    margin-top: 120px;
+    gap: 120px;
+}
+
+.rounded {
+    box-sizing: border-box;
+    border: 13px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.soon-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* holiday section start */
+.holiday-section {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.holiday-img-styles {
+    display: flex;
+    background-image: url("./images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    gap: 20px;
+
+}
+
+.group-75 {
+    padding: 80px 0px 0px 150px;
+}
+
+.holiday-title {
+    font-family: Merriweather;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 64px;
+}
+
+/* holiday section end */
+
+.portfolio-section {
+    margin-top: 100px ;
+    
+}
+
+.portfolio-img-styles {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.portfolio-head{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 30px;
+text-transform: capitalize;
+}
+.portfolio-title{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.ft-head{
+    
+    font-weight: 800;
+}
+/* portfolio section end */
+
+.subscribed-section{
+    text-align: center;
+    margin-top: 120px;
+    border-radius: 16px;
+    padding: 200px;
+background: rgba(255, 0, 0, 0.05);
+}
+.sub-head{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.sub-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+}
+.btn-sub , input{
+    padding: 10px 26px;
+    border: none;
+    border-radius:50px 0px 0px 50px;
+}
+.sub-btn{
+    padding: 10px 26px;
+    border: none;
+    border-radius:0px 50px 50px 0px ;
+    background-color:red;
+    margin-left: -30px;
+}
+
